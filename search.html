@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontstyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Search</title>
+</head>
+<body class="bg-black">
+    <div class="sidebar d-flex">
+        <div class="rows pt-5 ps-2 fs-4 ">
+            <aside class=" mb-5 d-flex justify-content-between flex-column">
+               <ul class=" list list-unstyled">
+                <li ><a class="text-decoration-none"  href="./search.html">Search</a></li>
+                <li><a class="text-decoration-none"  href="./category.html">Catagories</a></li>
+                <li><a class="text-decoration-none"  href="">Area</a></li>
+                <li><a class="text-decoration-none"  href="">Ingredients</a></li>
+                <li><a class="text-decoration-none"  href="./contact us.html">Contact Us</a></li>
+               </ul>
+               <ul class=" icon list-unstyled">
+                <li>
+                    <ul class=" list-unstyled d-flex   " >
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-globe"></i></a></li>
+                    </ul>
+                </li>
+                <li>Copytight A &copy; 2019 All Right</li>
+                <li>Reserved</li>
+               </ul>
+
+            </aside>
+        </div>
+        <div class="nav-logo">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="icon-mid">
+                <i class=" close fa-solid fa-xmark"></i>
+                <i class=" open d-none fa-solid fa-bars"></i>
+  
+            </div>
+            <div class="icon-bottom">
+                <i class= "fa-solid fa-globe"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+        </div>
+    </div>
+      <div class="main-search">
+        <div class="container d-flex g-5 pt-5">
+            <input class=" search-by-name form-control me-2" type="search" placeholder="Search By Name" aria-label="Search">
+            <input class=" Search-By-First-Letter form-control me-2" type="search" placeholder="Search By First Letter" aria-label="Search">
+        </div>
+      </div>
+      <div id="results" class="container row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 text-center mt-3"></div>
+      
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/search.js"></script>
+
+</body>
+</html>
